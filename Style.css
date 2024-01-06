@@ -1,0 +1,378 @@
+body {
+    background-color: rgb(0, 0, 16);
+    color: white;
+}
+
+.an:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80;
+    background-color: rgb(8 14 88 / 73%);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.FirstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.FirstSection>div {
+    width: 35%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.color {
+    color: rgb(170, 70, 228);
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(205, 205, 228);
+    font-size: 1.02rem;
+}
+
+#element {
+    color: rgb(170, 70, 228);
+}
+
+footer {
+    height: 233px;
+    background-color: rgb(56, 53, 53);
+}
+
+.footer {
+    display: flex;
+    padding: -40px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 300px;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.h3 {
+    margin: 0px 450px;
+}
+
+.h4 {
+    margin: 40px 240px;
+}
+
+.leftsection .buttons {
+    padding: 50px 0;
+
+}
+
+.leftsection .btn {
+    text-decoration: none;
+    padding: 10px;
+    background: #0a0b33;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ab:hover {
+    text-decoration: none;
+    color: rgb(205, 205, 228);
+    font-size: 20px;
+}
+
+hr {
+    margin: 20px 30px;
+    border-radius: 2px;
+}
+
+#Services {
+    margin: 0px 40px;
+}
+
+.intro {
+    color: rgb(165, 219, 221);
+    font-size: 1.4rem;
+    margin: 0px 30px;
+    padding: 10px;
+}
+
+.Aboutme {
+    color: rgb(165, 219, 221);
+    font-size: 1.4rem;
+    margin: 0px 30px;
+    padding: 10px;
+}
+
+.thirdsection {
+    height: 300px;
+}
+
+.Services {
+    background: white;
+    width: 59vw;
+    height: 2px;
+    margin: 56px 0 20px 297px;
+    display: flex;
+
+}
+
+.verticalht {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.img {
+    position: relative;
+    width: 50px;
+    top: -53px;
+    left: -23px;
+}
+
+.ht {
+    position: relative;
+    width: 80px;
+    top: -54px;
+    left: -37px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 43px;
+    left: -27px;
+}
+
+.vertical-titleht {
+    position: relative;
+    top: 44px;
+    left: -40px;
+}
+
+.desc {
+    width: 150px;
+    position: relative;
+    top: 47px;
+    left: -43px;
+    color: gray;
+    font-size: 15px;
+}
+
+.jsdesc {
+    width: 150px;
+    position: relative;
+    top: 118px;
+    left: -32px;
+    color: gray;
+    font-size: 15px;
+}
+
+.verticaljs {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 0px 0px 393px;
+}
+
+.verticalui {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 0px 0px 260px;
+}
+
+.des {
+    font-size: 15px;
+    color: rgb(124, 67, 230);
+}
+
+h1 {
+    margin: 0px 30px;
+}
+
+.fourthsection {
+    height: 600px;
+}
+
+.con {
+    text-align: center;
+    margin: 19px;
+    font-size: 1.5rem;
+}
+
+.feel {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: -8px;
+}
+
+.inf {
+    padding: 36px 70px;
+    font-size: 2rem;
+}
+
+.inbox {
+    background: rgb(10 11 51);
+    width: 550px;
+    height: 360px;
+    margin: 40px 120px;
+}
+
+.h {
+    width: 60px;
+    margin: -15px 75px;
+}
+
+.won {
+    margin: 42px 63px;
+    font-size: 19px;
+}
+
+.ema {
+    margin: -5px 33px;
+    font-size: 19px;
+}
+
+.ins {
+    padding: 19px 34px;
+    font-size: 19px;
+}
+
+.resume {
+    background: rgb(10 11 51);
+    width: 550px;
+    height: 360px;
+    margin: -401px 700px;
+}
+
+.re {
+    font-size: 2rem;
+    padding: 70px 222px;
+    margin: -100px 0px;
+}
+
+.res {
+    font-size: 19px;
+    margin: 2px 64px;
+}
+
+.email {
+    margin: 0px 10px;
+}
+
+.insid {
+    margin: 0px 15px;
+}
+
+.link {
+    margin: 0px 36px;
+    font-size: 19px;
+}
+
+.linkid {
+    margin: 0px 15px;
+}
+
+.btnbtn-lg {
+    text-decoration: none;
+    padding: 8px;
+    background: rgb(10 11 51);
+    color: rgb(255 255 255);
+    border-radius: 6px;
+    border: 2px solid rgb(255 255 255);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 50px 181px;
+}
+
+.btt {
+    display: flex;
+    justify-content: center;
+}
+
+.bt {
+    text-decoration: none;
+    background-color: rgb(68 66 66);
+    margin: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(68 66 66);
+}
+.link1{
+    margin: -4px 0px;
+    width: 23px;
+}
+.inst{
+    margin: -5px 0px;
+    width: 23px;
+    
+}
+.emai{
+    margin: -3px 0px;
+    width: 23px;
+}
+.down{
+    margin: 0px 0px;
+    width: 23px;
+}
+.inst1{
+    margin: -4px 7px;
+    width: 23px;
+}
+.emai1{
+    margin: -2px 8px;
+    width: 23px;
+}
+.link2{
+    margin: -4px 10px;
+    width: 23px;
+}
+.upa{
+    margin: -8px 0px;
+    width: 20px;
+}
+.a2:hover{
+    text-decoration: none;
+    color: rgb(205, 205, 228);
+    font-size: 16px;   
+}
