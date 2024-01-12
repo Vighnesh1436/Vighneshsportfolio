@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 16);
+    background-color: #111;
     color: white;
 }
 
@@ -223,7 +223,7 @@ hr {
 
 .des {
     font-size: 15px;
-    color: rgb(124, 67, 230);
+    color: rgb(18, 156, 248);
 }
 
 h1 {
@@ -338,41 +338,171 @@ h1 {
     cursor: pointer;
     border: 2px solid rgb(68 66 66);
 }
-.link1{
+
+.link1 {
     margin: -4px 0px;
     width: 23px;
 }
-.inst{
+
+.inst {
     margin: -5px 0px;
     width: 23px;
-    
+
 }
-.emai{
+
+.emai {
     margin: -3px 0px;
     width: 23px;
 }
-.down{
+
+.down {
     margin: 0px 0px;
     width: 23px;
 }
-.inst1{
+
+.inst1 {
     margin: -4px 7px;
     width: 23px;
 }
-.emai1{
+
+.emai1 {
     margin: -2px 8px;
     width: 23px;
 }
-.link2{
+
+.link2 {
     margin: -4px 10px;
     width: 23px;
 }
-.upa{
+
+.upa {
     margin: -8px 0px;
     width: 20px;
 }
-.a2:hover{
+
+.a2:hover {
     text-decoration: none;
     color: rgb(205, 205, 228);
-    font-size: 16px;   
+    font-size: 16px;
+}
+
+.fifthsection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+}
+
+.fifth {
+    width: 700px;
+    margin: -40px 340px;
+}
+
+#proj {
+    font-family: Digital-7;
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin: 63px 40px;
+    text-align: center;
+}
+.cal1{
+    margin: 0px 10px;
+}
+.calculator {
+    margin: -30px 0px 50px 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+    background: url(background.png);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 50px rgb(54, 133, 185);
+    border-radius: 20px;
+}
+
+.image-cal {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    overflow: hidden;
+}
+
+.image-cal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cal {
+    padding: 24px 16px;
+}
+
+.To-Do-List {
+    margin: -82px 0 0 100px;
+    width: 300px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+    background: url(background.png);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 50px rgb(54, 133, 185);
+}
+
+.image-To-Do {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    
+}
+
+.image-To-Do img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.To-Do-n {
+    padding: 24px 16px;
+}
+.Login {
+    margin: -82px 0 0 100px;
+    width: 300px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+    background: url(background.png);
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 50px rgb(54, 133, 185);
+}
+
+.image-Login {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    
+}
+
+.image-Login img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.Login-n {
+    padding: 24px 16px;
+}
+.arrow{
+   margin: 0px -20px 0px 10px;
+}
+.ar:hover{
+    text-decoration: none;
+    font-size: 25px;
 }
